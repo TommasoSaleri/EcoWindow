@@ -5,8 +5,8 @@
 #include <Stepper.h>
 
 // IMPOSTAZIONI WIFI
-const char* ssid = "nikke._.simo";
-const char* password = "Esp32Aura";
+const char* ssid = "IL_TUO_WIFI";
+const char* password = "LA_TUA_PASSWORD";
 
 // IMPOSTAZIONI SENSORI E PIN
 #define DHTPIN 4
