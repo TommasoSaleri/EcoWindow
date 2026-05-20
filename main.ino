@@ -32,7 +32,7 @@ bool isBlindUp = true;
 unsigned long lastApiCallTime = 0;
 const unsigned long apiInterval = 15 * 60 * 1000;
 
-String latitude = "45.53";
+String latitude = "45.53"; // coordinate di Brescia, modificare i parametri se necessario
 String longitude = "10.21";
 String openMeteoUrl = "https://api.open-meteo.com/v1/forecast?latitude=" + latitude + "&longitude=" + longitude + "&current=temperature_2m,is_day,weather_code";
 
